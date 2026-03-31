@@ -47,39 +47,39 @@ python main.py add
 
 ### Full birth chart
 ```bash
-python main.py chart Diwakar
-python main.py chart Diwakar --llm    # with LLM prediction
+python main.py chart John
+python main.py chart John --llm    # with LLM prediction
 ```
 
 ### Dasha timeline
 ```bash
-python main.py dasha Diwakar
-python main.py dasha Diwakar --years 30 --llm
+python main.py dasha John
+python main.py dasha John --years 30 --llm
 ```
 
 ### Today's transits
 ```bash
-python main.py transit Diwakar
-python main.py transit Diwakar --days 14 --llm
+python main.py transit John
+python main.py transit John --days 14 --llm
 ```
 
 ### Yoga & Dosha analysis
 ```bash
-python main.py yoga Diwakar
-python main.py yoga Diwakar --llm
+python main.py yoga John
+python main.py yoga John --llm
 ```
 
 ### Kundali matching
 ```bash
-python main.py match Diwakar Priya
-python main.py match Diwakar Priya --llm
+python main.py match John Jane
+python main.py match John Jane --llm
 ```
 
 ### Western Tropical chart
 ```bash
-python main.py western Diwakar
-python main.py western Diwakar --llm
-python main.py western Diwakar --compare --llm  # Vedic vs Western synthesis
+python main.py western John
+python main.py western John --llm
+python main.py western John --compare --llm  # Vedic vs Western synthesis
 ```
 
 ### List profiles
